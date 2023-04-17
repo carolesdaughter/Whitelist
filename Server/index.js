@@ -28,7 +28,7 @@ const GenerateString = function(Input) {
 	}
   
 	for (let Index = 0; Index < GenerateNumber(); Index++) {
-    	String += Characters.charAt(Math.floor(Math.random() * Characters.length));
+    		String += Characters.charAt(Math.floor(Math.random() * Characters.length));
 	}
 	
   	return String;
@@ -40,8 +40,8 @@ const GenerateNewInput = function(Input) {
 	let RandomArray = RandomString.split("")
 
 	for (let Index = 0; Index < InputArray.length; Index++) {
-    	const Random = Math.floor(Math.random() * (RandomArray.length + 1));
-    	RandomArray.splice(Random, 0, InputArray[Index]);
+    		const Random = Math.floor(Math.random() * (RandomArray.length + 1));
+    		RandomArray.splice(Random, 0, InputArray[Index]);
   	}
 
 	return RandomArray.join("")
