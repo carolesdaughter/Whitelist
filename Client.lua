@@ -1,4 +1,4 @@
-local Whitelist = "https://whitelist.m9sked.repl.co" -- // change this to ur webserver's url
+local Whitelist = "" -- // change this to ur webserver's url
 
 local Player = game:GetService("Players").LocalPlayer
 
