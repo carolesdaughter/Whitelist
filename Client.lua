@@ -1,3 +1,5 @@
+local Whitelist = "https://whitelist.m9sked.repl.co" -- // change this to ur webserver's url
+
 local Player = game:GetService("Players").LocalPlayer
 
 local RegistryBackup = {}
@@ -345,8 +347,6 @@ getgenv().RegistryHook = "Ok" do
         return RegistryBackup
     end))
 end
-
-local Whitelist = "https://whitelist.m9sked.repl.co"
 
 local Request do
     if syn and syn.request then
